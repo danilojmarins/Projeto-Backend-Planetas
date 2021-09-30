@@ -1,6 +1,6 @@
 // Teste da API REST
 
-@baseURL = http://localhost:4000
+@baseURL = https://projeto-backend-gti.herokuapp.com
 @id = 
 
 ###
