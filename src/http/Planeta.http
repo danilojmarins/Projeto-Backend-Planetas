@@ -1,0 +1,46 @@
+// Teste da API REST
+
+@baseURL = http://localhost:4000
+@id = 
+
+###
+// GET - Listar todos os planetas
+GET {{baseURL}}/planetas
+Content-Type: application/json
+
+###
+// GET - Listar um planeta pelo id
+GET {{baseURL}}/planetas/{{id}}
+Content-Type: application/json
+
+###
+// DELETE - Apaga um planeta pelo id
+DELETE {{baseURL}}/planetas/{{id}}
+Content-Type: application/json
+
+###
+// POST - Incluir um novo planeta
+POST {{baseURL}}/planetas
+Content-Type: application/json
+
+{
+    "nome": "Urano",
+    "raioKM": "25362",
+    "numSatelites": "27",
+    "distanceSolUA": "19.2",
+    "tipo": "gasoso"
+}
+
+###
+// PUT - Altera um planeta já existente
+PUT {{baseURL}}/planetas
+Content-Type: application/json
+
+{
+    "_id": "615606b12234556d08ffe063",
+    "nome": "Urano",
+    "raioKM": "25362",
+    "numSatelites": "27",
+    "distanceSolUA": "19.2",
+    "tipo": "gasoso"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "projeto-backend",
+  "version": "1.0.0",
+  "description": "Projeto de Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Danilo José Marins",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2",
+    "mongoose": "^6.0.8"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  } 
+}
