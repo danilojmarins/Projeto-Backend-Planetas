@@ -24,11 +24,11 @@ POST {{baseURL}}/planetas
 Content-Type: application/json
 
 {
-    "nome": "Urano",
-    "raioKM": "25362",
-    "numSatelites": "27",
-    "distanceSolUA": "19.2",
-    "tipo": "gasoso"
+    "nome": "Vênus",
+    "raioKM": "6051",
+    "numSatelites": "0",
+    "distanceSolUA": "0.72",
+    "tipo": "rochoso"
 }
 
 ###
@@ -37,7 +37,7 @@ PUT {{baseURL}}/planetas
 Content-Type: application/json
 
 {
-    "_id": "615606b12234556d08ffe063",
+    "_id": "",
     "nome": "Urano",
     "raioKM": "25362",
     "numSatelites": "27",
