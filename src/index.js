@@ -1,4 +1,5 @@
 const express = require('express')
+const cors =  require('cors') // Habilita o CORS - Cross-origin resource sharing
 require('dotenv').config() // Carregar as variáveis de ambiente
 const InicializaMongoServer = require('./config/db')
 const rotasPlaneta = require('./routes/Planeta')
@@ -6,6 +7,8 @@ const rotasPlaneta = require('./routes/Planeta')
 InicializaMongoServer() // Inicializamos o MongoDB
 
 const app = express()
+
+app.use(cors()) // CORS
 
 const PORT = process.env.PORT
 

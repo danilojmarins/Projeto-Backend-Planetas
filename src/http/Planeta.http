@@ -1,7 +1,7 @@
 // Teste da API REST
 
 @baseURL = https://projeto-backend-gti.herokuapp.com
-@id = 
+@id = 6154dde3a246fc44bf87b6a4
 
 ###
 // GET - Listar todos os planetas
@@ -24,11 +24,11 @@ POST {{baseURL}}/planetas
 Content-Type: application/json
 
 {
-    "nome": "Vênus",
-    "raioKM": "6051",
-    "numSatelites": "0",
-    "distanceSolUA": "0.72",
-    "tipo": "rochoso"
+    "nome": "Júpiter",
+    "raioKM": "69911",
+    "numSatelites": "79",
+    "distanceSolUA": "5.2",
+    "tipo": "gasoso"
 }
 
 ###
@@ -37,10 +37,10 @@ PUT {{baseURL}}/planetas
 Content-Type: application/json
 
 {
-    "_id": "",
-    "nome": "Urano",
-    "raioKM": "25362",
-    "numSatelites": "27",
-    "distanceSolUA": "19.2",
+    "_id": "615cd20a465b37bc89274705",
+    "nome": "Júpiter",
+    "raioKM": "69911",
+    "numSatelites": "79",
+    "distanceSolUA": "5.2",
     "tipo": "gasoso"
 }
